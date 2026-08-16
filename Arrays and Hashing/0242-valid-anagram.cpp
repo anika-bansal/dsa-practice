@@ -1,4 +1,10 @@
-//Frequency Array
+/*
+ Problem: 0242 - Valid Anagram
+ Difficulty: Easy
+ Approach: Frequency Array
+ Time Complexity: O(n+m) // n = length of string s, and m = length of string t
+ Space Complexity: O(1) //at most 26 different characters
+ */
 #include <string>
 using namespace std;
 
@@ -28,23 +34,7 @@ public:
     }
 };
 
-/* Incorrect, as unordered sets condenses duplicates
-class Solution {
-public:
-    bool isAnagram(string s, string t) {
-        if (s.length()!=t.length()){
-         return false;
-        } 
-        std::unordered_set<char> seen1 (s.begin(),s.end());
-        std::unordered_set<char> seen2 (t.begin(),t.end());
-        if(seen1==seen2){
-            return true;
-        }
-        return false;
 
-    }
-};
-*/
 
 
 

@@ -1,8 +1,16 @@
+/*
+ Problem: 0049 - Group Anagrams
+ Difficulty: Medium
+ Approach: Frequency Array and Hash Map
+ Time Complexity: O(m*n) 
+ Space Complexity: O(m)
+ where m = number of strings and n = length of longest string
+ */
+
 #include <iostream>
 #include <vector>
 #include <string>
 #include <unordered_map>
-
 using namespace std;
 
 class Solution {

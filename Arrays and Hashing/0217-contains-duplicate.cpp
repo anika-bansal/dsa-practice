@@ -1,4 +1,11 @@
-//Hash Map solution
+/*
+ Problem: 0217 - Contains Duplicate
+ Difficulty: Easy
+ Approach: Hash Set
+ Time Complexity: O(n)
+ Space Complexity: O(n)
+ */
+
 #include <unordered_set>
 #include <vector>
 
